@@ -21,4 +21,4 @@ inp_name = input("Please enter your name:").capitalize()
 if inp_name == name :
   print(f"Hello {name}, your password is : {password}")
 else:
-  print("Please enter the name correctly.")
+  print(f"Hello {inp_name}, please enter the name correctly.")
